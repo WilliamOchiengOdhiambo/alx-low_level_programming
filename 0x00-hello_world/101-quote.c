@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - C program that prints a statement in a new line to the standard output
+ * main - C program that prints a statement in a new line to the stdout'
  *
  * Return:1 (Success)
  */
 int main(void)
 {
-	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19",stdout);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
 
